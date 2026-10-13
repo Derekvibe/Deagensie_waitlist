@@ -7,7 +7,11 @@
     <div
       class="mx-auto flex h-18 w-full max-w-7xl items-center rounded-full border border-white/15 bg-black/90 px-6 text-white shadow-xl backdrop-blur-md transition-all duration-300 lg:h-20 lg:px-8"
     >
-      <NuxtLink to="/" aria-label="Deagensie logo" class="flex shrink-0 items-center py-1">
+      <NuxtLink
+        to="https://test-deagensie.vercel.app/"
+        aria-label="Deagensie logo"
+        class="flex shrink-0 items-center py-1"
+      >
         <NuxtImg
           src="/images/logo.png"
           alt="Deagensie logo"

@@ -36,7 +36,7 @@ useHead({
       >
         <div class="space-y-6">
           <NuxtLink
-            to="/"
+            to="https://test-deagensie.vercel.app/"
             aria-label="Deagensie logo"
             class="-my-3 -ml-2.5 inline-block sm:-my-4 sm:-ml-3.5 lg:-my-5 lg:-ml-4.5 xl:-my-6 xl:-ml-5.5"
           >
