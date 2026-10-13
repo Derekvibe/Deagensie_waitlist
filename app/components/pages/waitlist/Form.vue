@@ -78,7 +78,7 @@ async function onSubmit() {
   });
 
   if (!result.ok) {
-    submitError.value = result.message;
+    submitError.value = result.message || '';
   }
 }
 

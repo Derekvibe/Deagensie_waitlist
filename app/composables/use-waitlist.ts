@@ -2,7 +2,7 @@ import { normalizeApiError } from '~/utils/api-errors';
 
 type WaitlistStatus = 'idle' | 'submitting' | 'success';
 
-type SubmitResult = { ok: true } | { ok: false; message: string };
+export type SubmitResult = { ok: true; message?: string } | { ok: false; message: string };
 
 const WAITLIST_PATH = '/waitlist';
 
