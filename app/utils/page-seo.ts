@@ -9,64 +9,14 @@ const siteName = 'Deagensie';
 
 const staticPageSeo: Record<string, PageSeo> = {
   '/': {
-    title: 'Deagensie | Human layer powering your Venture Growth',
+    title: 'Join the Waitlist | Deagensie Early Access',
     description:
-      'Deagensie helps ventures build strategy, branding, marketing & digital platforms, and connects global creative talent through predictive AI matching.',
-  },
-  '/about': {
-    title: 'About Deagensie | Strategy, Talent & Ecosystem Innovation',
-    description:
-      "Learn about Deagensie's mission to build scalable venture systems and unlock global creative talent through intelligence and execution.",
-  },
-  '/why': {
-    title: 'Why Deagensie | Two Engines. One Ecosystem.',
-    description:
-      "Discover why Deagensie's dual engines (Venture's Growth Lab & Talent-as-a-Service) power scalable business success and borderless talent growth.",
-  },
-  '/business': {
-    title: "Venture's Growth Lab | Deagensie",
-    description:
-      'Where ventures become growth-ready. A structured growth engine across Strategy, Branding, Marketing, and Digital Platforms.',
-  },
-  '/business/solutions': {
-    title: 'Growth Solutions | Venture Growth Lab',
-    description:
-      'Explore Deagensie Growth Lab solutions across 01 Strategy, 02 Branding, 03 Marketing, and 04 Digital Platforms.',
-  },
-  '/creatives': {
-    title: 'Talent-as-a-Service (TaaS) | Deagensie',
-    description:
-      'Predictive AI talent matching engine connecting top-tier global creative professionals with high-impact venture opportunities.',
-  },
-  '/blog': {
-    title: 'Growth & Talent Insights | Deagensie',
-    description:
-      'Read Deagensie insights on business growth, branding, digital platforms, AI matching, and the creative talent economy.',
-  },
-  '/resource': {
-    title: 'Resource Hub | Growth & Talent Intelligence',
-    description:
-      'Explore Deagensie resources, playbooks, and frameworks for creative professionals, founders, and scaling teams.',
-  },
-  '/contact': {
-    title: 'Contact Deagensie | Start a Project or Join TaaS',
-    description:
-      'Get in touch with Deagensie to launch a Venture Project or join our global Talent-as-a-Service ecosystem.',
-  },
-  '/register': {
-    title: 'Get Started | Deagensie Ecosystem',
-    description:
-      'Register your venture for Growth Lab solutions or create your profile as a creative in our TaaS network.',
+      "Join the Deagensie waitlist to be among the first to use Venture's Growth Lab and Talent-as-a-Service, the predictive AI talent matching engine.",
   },
   '/waitlist': {
     title: 'Join the Waitlist | Deagensie Early Access',
     description:
-      'Join the Deagensie waitlist for early access to our Growth Lab, Talent-as-a-Service network, and AI-powered matching engine. Be first inside.',
-  },
-  '/subscription': {
-    title: 'Growth Subscriptions | Deagensie',
-    description:
-      'Browse Deagensie subscription plans for flexible venture growth support and embedded creative talent.',
+      "Join the Deagensie waitlist to be among the first to use Venture's Growth Lab and Talent-as-a-Service, the predictive AI talent matching engine.",
   },
 };
 

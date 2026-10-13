@@ -52,28 +52,22 @@ useHead({
           </p>
           <div class="flex items-center gap-4 text-2xl text-gray-300">
             <NuxtLink
-              to="/"
+              to="https://www.linkedin.com/company/deagensie"
               class="transition-all duration-300 hover:scale-110 hover:text-[#05DED5]"
               aria-label="LinkedIn"
             >
               <Icon icon="ri:linkedin-fill" />
             </NuxtLink>
             <NuxtLink
-              to="/"
+              to="https://www.instagram.com/deagensie?mdxt=NDR1bmhhaGVic3g1"
               class="transition-all duration-300 hover:scale-110 hover:text-[#05DED5]"
               aria-label="Instagram"
             >
               <Icon icon="ri:instagram-fill" />
             </NuxtLink>
+
             <NuxtLink
-              to="/"
-              class="transition-all duration-300 hover:scale-110 hover:text-[#05DED5]"
-              aria-label="Twitter X"
-            >
-              <Icon icon="prime:twitter" />
-            </NuxtLink>
-            <NuxtLink
-              to="/"
+              to="https://www.tiktok.com/@deagensie?_r=1&_t=ZS-9AWQfn1Vio3"
               class="transition-all duration-300 hover:scale-110 hover:text-[#05DED5]"
               aria-label="TikTok"
             >
@@ -154,17 +148,23 @@ useHead({
           <div class="flex flex-col gap-3 text-sm">
             <h3 class="mb-2 text-base font-bold tracking-wider text-white uppercase">Legal</h3>
             <NuxtLink
-              to="/contact"
+              to="https://test-deagensie.vercel.app/privacy"
+              target="_blank"
+              rel="noopener noreferrer"
               class="text-gray-300 transition-colors duration-200 hover:text-[#05DED5]"
               >Privacy Policy</NuxtLink
             >
             <NuxtLink
-              to="/contact"
+              to="https://test-deagensie.vercel.app/terms"
+              target="_blank"
+              rel="noopener noreferrer"
               class="text-gray-300 transition-colors duration-200 hover:text-[#05DED5]"
-              >Terms of Service</NuxtLink
+              >Terms and Conditions</NuxtLink
             >
             <NuxtLink
-              to="/contact"
+              to="https://test-deagensie.vercel.app/cookies"
+              target="_blank"
+              rel="noopener noreferrer"
               class="text-gray-300 transition-colors duration-200 hover:text-[#05DED5]"
               >Cookie Policy</NuxtLink
             >
@@ -177,13 +177,25 @@ useHead({
       >
         <p>&copy; 2026 Deagensie. All rights reserved.</p>
         <div class="flex gap-6">
-          <NuxtLink to="/contact" class="transition-colors duration-200 hover:text-white"
+          <NuxtLink
+            to="https://test-deagensie.vercel.app/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="transition-colors duration-200 hover:text-white"
             >Privacy Policy</NuxtLink
           >
-          <NuxtLink to="/contact" class="transition-colors duration-200 hover:text-white"
-            >Terms of Service</NuxtLink
+          <NuxtLink
+            to="https://test-deagensie.vercel.app/terms"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="transition-colors duration-200 hover:text-white"
+            >Terms and Conditions</NuxtLink
           >
-          <NuxtLink to="/contact" class="transition-colors duration-200 hover:text-white"
+          <NuxtLink
+            to="https://test-deagensie.vercel.app/cookies"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="transition-colors duration-200 hover:text-white"
             >Cookie Policy</NuxtLink
           >
         </div>
