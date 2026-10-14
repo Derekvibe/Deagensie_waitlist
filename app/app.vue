@@ -38,12 +38,12 @@ useHead({
           <NuxtLink
             to="https://test-deagensie.vercel.app/"
             aria-label="Deagensie logo"
-            class="-my-3 -ml-2.5 inline-block sm:-my-4 sm:-ml-3.5 lg:-my-5 lg:-ml-4.5 xl:-my-6 xl:-ml-5.5"
+            class="-my-4 -ml-4 inline-block sm:-my-4.5 sm:-ml-4 lg:-my-5 lg:-ml-4.5 xl:-my-6 xl:-ml-5.5"
           >
             <NuxtImg
               src="/images/logo.png"
               alt="Deagensie logo"
-              class="h-20 w-auto object-contain transition-all duration-300 sm:h-26 lg:h-32 xl:h-36"
+              class="h-28 w-auto object-contain transition-all duration-300 sm:h-30 lg:h-32 xl:h-36"
             />
           </NuxtLink>
           <p class="max-w-md text-sm leading-relaxed text-gray-300 sm:text-base">
